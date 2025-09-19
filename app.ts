@@ -1,2 +1,7 @@
-let age = 25; 
-console.log(age)
+var age: string = '25';
+age  = "εικοσιπέντε"
+
+let isAdmin: boolean = false;
+
+
+console.log(age);
