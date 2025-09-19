@@ -14,4 +14,5 @@ class Person {
 }
 
 const p = new Person("Maria", 25);
-p.greet(); 
+p.greet();
+ 
