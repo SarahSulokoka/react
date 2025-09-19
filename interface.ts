@@ -4,4 +4,17 @@ interface User {
     isAdmin?: boolean;  //isAdmin can be optional , thats why we used ? 
 }
 
-const usr: User = {name: "Maria", age: 25, isAdmin: false}
+type User = {
+    name: string;
+    age: number;
+    isAdmin?: boolean;
+
+}
+
+interface User {
+    lastname: string;
+}
+
+//const usr: User = {name: "Maria", age: 25, isAdmin: false}
+
+
