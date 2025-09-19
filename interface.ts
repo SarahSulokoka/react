@@ -16,10 +16,10 @@ interface User {
 }
 
 
-type ID = string | number ;
+// type ID = string | number ;
 
-let id: ID = "CF8"
-let id: ID = 25;
+// let id: ID = "CF8"
+// let id: ID = 25;
 
 
 //Tuple 

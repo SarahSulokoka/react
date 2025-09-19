@@ -12,4 +12,8 @@ class Person {
 
 const p = new Person("Maria", 25)
 
+
+// p.name = 25;  //wrong 
+
+p.name = "John"
 p.greet();
