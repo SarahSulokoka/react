@@ -1,6 +1,8 @@
-function greet(name: string) {
-    return "Hello " + name;
+function greet(name: string, age?: number) {
+    console.log(`Name: ${name}`);
+    if(age) console.log(`Age: ${age}`);
+
+    
 }
 
-
-console.log(greet("Mary"));
+greet("Mary" ,25)
