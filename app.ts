@@ -1,4 +1,4 @@
-var age: string = '25';
+var age = '25';
 age  = "εικοσιπέντε"
 
 let isAdmin: boolean = false;
